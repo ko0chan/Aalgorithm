@@ -10,12 +10,10 @@
 class Solution {
     fun solution(n: Long): IntArray {
         var answer = intArrayOf()
-        var index = 0
         var array = IntArray(n.toString().length)
 
-        for (j in n.toString()) {
+        for ((index,j) in n.toString().withIndex()) {
             array[index] = j.toInt() - 48
-            index++
         }
 
         answer = array.reversedArray()
