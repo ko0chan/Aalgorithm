@@ -1,6 +1,6 @@
 // 프로그래머스 '이상한 문자 만들기'
 // https://programmers.co.kr/learn/courses/30/lessons/12930
-class Solution {
+class StrangeChar {
     fun solution(s: String): String {
         var answer = ""
         
@@ -28,5 +28,5 @@ class Solution {
 
 fun main(args: Array<String>) {
     var s = "try hello world"
-    Solution().solution(s)
+    StrangeChar().solution(s)
 }

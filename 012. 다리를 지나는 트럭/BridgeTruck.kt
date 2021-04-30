@@ -1,8 +1,7 @@
-import java.text.FieldPosition
 import java.util.*
-import kotlin.collections.first as first1
+
 // 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42583
-class Solution {
+class BridgeTruck {
     //fun test(var weight: Int, var location: Int)
     fun solution(bridge_length: Int, weight: Int, truck_weights: IntArray): Int {
         var readyTruck: Queue<Pair<Int,Int>> = LinkedList<Pair<Int,Int>>()
@@ -44,5 +43,5 @@ fun main(args: Array<String>) {
     var weight = 10
     var truck_weights = intArrayOf(7,4,5,6)
 
-    print(Solution().solution(bridge_length,weight,truck_weights))
+    print(BridgeTruck().solution(bridge_length,weight,truck_weights))
 }

@@ -1,4 +1,4 @@
-class Solution {
+class SumIntegers {
     fun solution(a: Int, b: Int): Long {
         var answer: Long = 0
 
@@ -21,6 +21,6 @@ fun main(args: Array<String>) {
     var a=3
     var b=5
 
-    Solution().solution(a,b)
+    SumIntegers().solution(a,b)
 
 }

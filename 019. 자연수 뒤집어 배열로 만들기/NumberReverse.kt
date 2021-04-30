@@ -7,7 +7,7 @@
 //입출력 예
 //n	return
 //12345	[5,4,3,2,1]
-class Solution {
+class NumberReverse {
     fun solution(n: Long): IntArray {
         var answer = intArrayOf()
         var array = IntArray(n.toString().length)
@@ -24,6 +24,6 @@ class Solution {
 fun main(args: Array<String>) {
     var n: Long = 13542
 
-    Solution().solution(n)
+    NumberReverse().solution(n)
 
 }

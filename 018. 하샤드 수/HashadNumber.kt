@@ -1,4 +1,4 @@
-class Solution {
+class HashadNumber {
     fun solution(x: Int): Boolean {
         var stringInt = x.toString()
         var sum: Int = 0
@@ -12,5 +12,5 @@ class Solution {
 
 fun main(args: Array<String>) {
     var x = 10
-    Solution().solution(x)
+    HashadNumber().solution(x)
 }

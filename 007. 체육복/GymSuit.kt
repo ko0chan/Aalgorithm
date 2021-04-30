@@ -1,4 +1,4 @@
-class Solution {
+class GymSuit {
     //    fun temp(x: IntArray, y: IntArray) = when(x){
 //        lost
 //    }
@@ -34,6 +34,6 @@ fun main(args: Array<String>) {
     var lost = intArrayOf(2,4)
     var reserve = intArrayOf(1,3,5)
 
-    Solution().solution(n,lost, reserve)
+    GymSuit().solution(n,lost, reserve)
 
 }

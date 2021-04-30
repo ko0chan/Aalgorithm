@@ -1,4 +1,4 @@
-class Solution {
+class KolatzGuess {
     fun solution(num: Int): Int {
         var count = 0
         var number: Long = num.toLong()
@@ -20,5 +20,5 @@ class Solution {
 
 fun main(args: Array<String>) {
     var num: Int = 626331
-    print(Solution().solution(num))
+    print(KolatzGuess().solution(num))
 }

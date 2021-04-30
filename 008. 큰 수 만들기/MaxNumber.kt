@@ -1,6 +1,6 @@
 
 
-class Solution {
+class MaxNumber {
     fun solution(number: String, k: Int): String {
         var answer = ""
         //var array: CharArray = number.toCharArray()
@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
     var num = "4177252841"
     var k = 4
 
-    val result = Solution().solution(num,k)
+    val result = MaxNumber().solution(num,k)
     print(result)
 }
 //number	   k	return

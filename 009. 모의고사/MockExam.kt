@@ -1,4 +1,4 @@
-class Solution {
+class MockExam {
     fun solution(answers: IntArray): IntArray {
         var answer = intArrayOf()
         var fst = intArrayOf(1,2,3,4,5)
@@ -27,6 +27,6 @@ class Solution {
 fun main(args: Array<String>) {
     var array = intArrayOf(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5)
 
-    Solution().solution(array)
+    MockExam().solution(array)
 
 }
