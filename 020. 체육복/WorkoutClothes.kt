@@ -1,15 +1,19 @@
 class WorkoutClothes {
     fun solution(n: Int, lost: IntArray, reserve: IntArray): Int {
         var answer = 0
-        var array: IntArray = IntArray(5) {
-            it
-        }
+        val array = IntArray(n) { 1 }
 
-        reserve.forEach {
-            array[it]--
+        for (it in lost) array[it - 1] -= 1
+        for (it in reserve) array[it - 1] += 1
+        for (it in 0 until n - 1) {
+            if (array[it] + array[it + 1] == 2) {
+                array[it] = 1
+                array[it + 1] = 1
+            }
         }
-        print(array)
-
+        for (it in array) {
+            if (it > 0) answer++
+        }
         return answer
     }
 }
